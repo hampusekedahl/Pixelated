@@ -7,6 +7,19 @@ A pixelated image guessing game built with C++, OpenGL, and SQLite. Images are s
 
 ---
 
+## Getting Started – Build Your Own Game
+
+Want to use your own images and play with friends? Follow these steps:
+
+- Place your images in the `Python_Generate_ImageDB/images` folder.
+  - Each **folder name** becomes a **category**.
+  - Each **image filename** becomes the **correct answer**.
+- Edit the `Python_Generate_ImageDB/commands.txt` file.
+  - See the included example for the format.
+- Run the Python script to generate the SQLite3 database.
+- Move the generated `.db` file into the `bin` folder next to `pixelated.exe`.
+- Launch the game and enjoy!
+
 ## Game Concept
 
 - Images are retrieved from a SQLite3 database at runtime.
