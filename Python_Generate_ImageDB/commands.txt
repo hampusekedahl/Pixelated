@@ -1,0 +1,4 @@
+open_db pixelguessr.db
+import_images_from_directory ./images/cars cars 1200 800
+import_images_from_directory ./images/cats cats 1200 800
+close_db
