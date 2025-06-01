@@ -3,7 +3,7 @@
 A pixelated image guessing game built with C++, OpenGL, and SQLite. Images are stored in a SQLite3 database bundled with the game, and are gradually revealed from a pixelated state. Players must guess the image before it's fully shown.
 
 # Demo
-![](https://github.com/hampusekedahl/Pixelated/gif/pixelated_demo.gif)
+![](https://raw.githubusercontent.com/hampusekedahl/Pixelated/main/gif/pixelated_demo.gif)
 
 ---
 
